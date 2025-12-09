@@ -1,0 +1,63 @@
+/* Base */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+/* Avoid unintended constraints */
+#root, .app-root {
+  width: 100%;
+}
+
+/* Optional: fine-tune headings */
+h1, h2 {
+  text-align: center;
+}
+
+/* 🔴 NEW LINES: Navbar ke liye custom color */
+.custom-navbar {
+  background-color: #0D1B2A; /* Dark Blue */
+}
+
+/* Alternative options (use one at a time) */
+/* .custom-navbar { background-color: #2C2C2C; } */ /* Charcoal Gray */
+/* .custom-navbar { background-color: #000000; } */ /* Black */
+/* .custom-navbar { background-color: #1B4332; } */ /* Dark Green */
+
+/* 🔴 NEW LINES: Header ke liye custom color */
+.custom-header {
+  background-color: #F8F9FA; /* Light Gray */
+  color: #0D1B2A; /* Dark Blue text */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
